@@ -1,0 +1,98 @@
+/* ================================= 
+  Navigation
+==================================== */
+
+/* ---- box shadow ---- */
+
+.example-caption {
+	color: #444;
+}
+
+.example-caption:hover,
+.example-caption:focus {
+	color: #28e0c9;
+	-webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.card-img-top {
+	border-bottom: 4px solid #3c948b;
+	width: 100%;
+}
+
+.card-img-overlay {
+	background-color: rgb(60, 148, 139, .9);
+}
+
+.card-title {
+	font-family: 'Lora', serif !important;
+}
+
+.card-text {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.btn-primary-custom {
+	background-color: #efefef;
+	margin-bottom: 5px;
+	color: #444;
+	bottom: 0;
+	font-size: 80%;
+	vertical-align: bottom;
+}
+
+.btn-secondary-custom {
+	background-color: #3c948b;
+	padding: 10px 30px;
+	color: #fff;
+	border: none;
+}
+
+.btn-secondary-custom:hover,
+.btn-secondary-custom:focus,
+.btn-primary-custom:hover,
+.btn-primary-custom:focus {
+    color: #28e0c9;
+    border: 1px solid #28e0c9;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.caption-custom {
+    width: 100%;
+    border-bottom: 4px solid #efefef;
+}
+
+/* Small devices (landscape phones, 34em and up) */
+@media (min-width: 34em) { 
+
+	.card-columns {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+	}
+
+}
+
+/* Medium devices (tablets, less than 62em) */
+@media (min-width: 61.9em) { 
+
+	.card-columns {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+
+}
+
+/* Large devices (desktops, less than 75em) */
+
+@media (min-width: 74.9em) {
+
+	.card-columns {
+		-moz-column-count: 3;
+		-webkit-column-count: 3;
+		column-count: 3;
+	}
+}

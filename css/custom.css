@@ -1,0 +1,455 @@
+/* ================================= 
+  Base Element Style
+==================================== */
+
+/* -- Typography ---- */
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Lora', serif;
+}
+
+.sub-header {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+/* -- Links ---- */
+
+a,
+.h3-link {
+	color: #3c948b;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus,
+.h3-link:hover,
+.h3-link:focus {
+    color: #28e0c9;
+    font-weight: 700;
+    text-decoration: none; 
+}
+
+/* ---- btns ---- */
+
+.btn-primary {
+	margin-bottom: 5px;
+	background-color: #d4d5d6;
+	color: #444;
+	border: none;
+	font-size: 80%;
+}
+
+.btn-secondary {
+	background-color: #3c948b;
+	padding: 10px 30px;
+	color: #fff;
+	border: none;
+}
+
+.btn-tertiary {
+	background-color: #444;
+	color: #fff;
+	padding: 10px 30px;
+	border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-tertiary:hover,
+.btn-tertiary:focus {
+    background-color: #fbfbfb;
+    color: #28e0c9;
+    font-weight: 700;
+}
+
+/* ---- Section Background ---- */
+
+.bg-primary {
+	background-color: #fbfbfb !important;
+	color: #444 !important;
+}
+
+.bg-white {
+    color: #444 !important;
+    background: linear-gradient(rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 0.9)), url(../img/background/bg-img-light.jpeg);
+    background-position: center;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bg-medium {
+    color: #444;
+    background-color: #e3e0e0;
+    width: 100% !important;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bg-dark {
+    color: #fff;
+    background-image: url(../img/background/bg-dark.png);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bg-color {
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    color: #444;
+    background: linear-gradient(rgba(60, 148, 139, 0.85), rgba(60, 148, 139, 0.85)), url(../img/background/bg-img.jpg);
+    background-position: middle center;
+    max-height: 240px;
+    padding-bottom: 50px;
+}
+
+/* ================================= 
+  Navigation
+==================================== */
+
+/* ---- box shadow ---- */
+
+.navbar {
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* ---- logo ---- */
+
+.navbar-brand {
+	max-width: 75%;
+	line-height: 1.5rem;
+}
+
+.navbar-brand h5 {
+	font-weight: 700;
+	color: #444;
+	margin: 0 auto;
+	padding-top: .425rem;
+	padding-bottom: .425rem;
+	font-size: 1.5rem;
+	line-height: 1.1rem;
+}
+
+.navbar-brand h5:hover,
+.navbar-brand h5:focus {
+	color: #28e0c9;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+/* ---- nav items (no btn) ---- */
+
+.tab-style {
+	border-left: 1px solid #d4d5d6;
+	height: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.navbar-nav
+.nav-item + .nav-item {
+    margin-left: 0;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+	color: #28e0c9 !important;
+}
+
+/* ---- toggle ---- */
+
+.navbar-toggler {
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+	font-size: 1.5rem;
+}
+
+.nav-stacked-collapse {
+	display: block;
+	position: fixed;
+	background-color: #444;
+}
+
+.hidden-nav {
+	margin-top: 2.25rem;
+}
+
+.hidden {
+	border-bottom: 1px solid #d4d5d6;
+}
+
+.hidden-link {
+	display: block;
+	background-color: #fbfbfb;
+	padding: 15px 50px;
+	font-size: 20px;
+}
+
+.hidden-btn {
+	display: block;
+	background-color: #3c948b;
+	padding: 15px 50px;
+	font-size: 20px;
+}
+
+.hidden-link a {
+	color: #444;
+}
+
+.hidden-btn a {
+	color: #fff;
+}
+
+.hidden-link a:hover,
+.hidden-link a:focus,
+.hidden-btn a:hover,
+.hidden-btn a:focus {
+	color: #28e0c9;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* ---- nav btn ---- */
+
+.tab-btn {
+	background-color: #45968c;
+	padding: 8px 20px 8px 20px;
+	margin-top: -.5rem;
+}
+
+.tab-btn:hover,
+.tab-btn:focus {
+    background-color: #fbfbfb;
+}
+
+.tab-btn a:hover,
+.tab-btn a:focus {
+	color: #28e0c9 !important;
+	font-weight: 700;
+}
+
+/* ================================= 
+  Portfolio Style
+==================================== */
+
+/* ---- columns ---- */
+
+.col,
+.mobile-col {
+	margin-top: 1rem;
+}
+
+.web-img {
+		width: 100%;
+		margin-right: 0 auto;
+}
+
+/* ---- img hover ---- */
+
+.col-overlay {
+	position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-caption {
+	color: #fbfbfb;
+    opacity: 0;
+    background: rgba(60,148,139,.9);
+    text-align: center;
+    letter-spacing: .05rem;
+    font-size: 16px;
+    padding: 10%;
+    height: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    top: 50%;
+    width: calc(100% - 30px);
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.col-caption i {
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 15px 15px 5px 15px;
+	font-size: 35px;
+}
+
+.icon-arrow-right,
+.icon-arr {
+	font-size: 1rem;
+}
+
+.col-caption:hover,
+.col-caption:focus {
+	opacity: 1;
+}
+
+/* ================================= 
+  Services Style
+==================================== */
+
+/* ---- services img ---- */
+
+.screen-img {
+	margin: 0 auto;
+	max-width: 75%;
+}
+
+/* ================================= 
+  About Style
+==================================== */
+
+/* ---- headshot ---- */
+
+.thumbnail {
+	max-width: 99%;
+	margin: 0 auto;
+}
+
+/* ================================= 
+  Footer
+==================================== */
+
+/* ---- social icons ---- */
+
+.icon {
+	color: #818a91;
+	font-size: 1.75rem;
+	float: left;
+	list-style: none;
+	-webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.footer-content ul {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 300px;
+}
+
+.icon:hover,
+.icon:focus {
+	color: #28e0c9;
+}
+
+/* ---- copyright & bootstrap callout ---- */
+
+.footer-content p {
+	text-align: center;
+	color: #818a91;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+/* Small devices (landscape phones, 34em and up) */
+@media (min-width: 34em) { 
+
+	
+
+}
+
+/* Medium devices (tablets, less than 62em) */
+@media (min-width: 61.9em) {
+
+	/* ---- about ---- */
+
+	.thumbnail {
+		max-width: 50%;
+		margin-left: 7rem;
+	}
+
+	/* ---- navbar ---- */
+
+	.navbar {
+		padding-bottom: 0;
+	}
+
+	.navbar-brand h5 {
+		padding-top: .25rem;
+		padding-bottom: .25rem;
+	}
+
+	/* ---- portfolio ---- */
+	
+	.mobile-col {
+		margin-top: 0;
+	}
+
+	/* ---- about ---- */
+
+	.thumbnail {
+		max-width: 80%;
+		margin-left: 4rem;
+	}
+
+	.about-text {
+		padding-top: 3rem;
+	}
+
+}
+
+
+/* Large devices (desktops, less than 75em) */
+
+@media (min-width: 74.9em) {
+
+	/* ---- services ---- */
+
+	.screen-img {
+		min-width: 75%;
+	}
+
+	/* ---- about ---- */
+
+	.thumbnail {
+		max-width: 75%;
+		margin-left: 5rem;
+	}
+
+	.about-text {
+		padding-top: 6rem;
+	}
+
+	/* ---- footer ---- */
+
+	.footer-content {
+		max-height: 100px;
+	}
+
+	.footer-content p {
+		float: right;
+		text-align: right;
+		padding-top: .425rem;
+		padding-bottom: 1%;
+	}
+
+	.footer-content ul {
+		float: left;
+		padding-bottom: .425rem;
+	}
+
+}
