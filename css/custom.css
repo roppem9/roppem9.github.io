@@ -83,14 +83,6 @@ a:focus,
 	color: #444 !important;
 }
 
-.bg-white {
-    color: #444 !important;
-    background: linear-gradient(rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 0.9)), url(../img/bg-img-light.jpeg);
-    background-position: center;
-    width: 100%;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-}
-
 .bg-medium {
     color: #444;
     background-color: #e3e0e0;
