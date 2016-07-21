@@ -85,7 +85,7 @@ a:focus,
 
 .bg-white {
     color: #444 !important;
-    background: linear-gradient(rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 0.9)), url(../img/background/bg-img-light.jpeg);
+    background: linear-gradient(rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 0.9)), url(../img/bg-img-light.jpeg);
     background-position: center;
     width: 100%;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -100,7 +100,7 @@ a:focus,
 
 .bg-dark {
     color: #fff;
-    background-image: url(../img/background/bg-dark.png);
+    background-image: url(../img/bg-dark.png);
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
