@@ -99,7 +99,7 @@ a:focus,
 .bg-color {
 	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
     color: #444;
-    background: linear-gradient(rgba(60, 148, 139, 0.85), rgba(60, 148, 139, 0.85)), url(../img/background/bg-img.jpg);
+    background: linear-gradient(rgba(60, 148, 139, 0.85), rgba(60, 148, 139, 0.85)), url(../img/bg-img.jpg);
     background-position: middle center;
     max-height: 240px;
     padding-bottom: 50px;
