@@ -368,6 +368,33 @@
 		    wf.async = 'true';
 		    var s = document.getElementsByTagName('script')[0];
 		    s.parentNode.insertBefore(wf, s);
+
+		// HTML Minifier: Remove comments
+		var input = '<!-- some comment --><p>blah</p>';
+		var output = minify(input, { removeComments: true });
+
+		output; // '<p>blah</p>'
+
+		// HTML Minifier: Remove comment from scripts & styles
+		var input = '<script type="text/javascript"><!-- some comment --></script>';
+		var output = minify(input, { removeComments: true });
+
+		output; // '<script type="text/javascript"><!-- some comment -->'
+
+		// HTML Minifier: Remove CDATA sections
+		var input = '<script>/* <![CDATA[ \n\n */alert(1)/* ]]> */</script>';
+		var output = minify(input, { removeCDATASectionsFromCDATA: true });
+
+		output; // '<script>alert(1)'
+
+		// HTML Minifier: Collapse Whitespace
+		var input = '<div> <p>    foo </p>    </div>';
+		var output = minify(input, { collapseWhitespace: true });
+
+		output; // '<div><p>foo</p></div>'
+
+
+		
 	</script>
 
 </body>
