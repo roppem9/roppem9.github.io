@@ -33,9 +33,7 @@ a,
 }
 
 a:hover,
-a:focus,
-.h3-link:hover,
-.h3-link:focus {
+.h3-link:hover {
     color: #28e0c9;
     font-weight: 700;
     text-decoration: none; 
@@ -66,11 +64,8 @@ a:focus,
 }
 
 .btn-primary:hover,
-.btn-primary:focus,
 .btn-secondary:hover,
-.btn-secondary:focus,
-.btn-tertiary:hover,
-.btn-tertiary:focus {
+.btn-tertiary:hover {
     background-color: #fbfbfb;
     color: #28e0c9;
     font-weight: 700;
@@ -132,8 +127,7 @@ a:focus,
 	line-height: 1.1rem;
 }
 
-.navbar-brand h5:hover,
-.navbar-brand h5:focus {
+.navbar-brand h5:hover {
 	color: #28e0c9;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -154,8 +148,7 @@ a:focus,
     margin-left: 0;
 }
 
-.nav-item a:hover,
-.nav-item a:focus {
+.nav-item a:hover {
 	color: #28e0c9 !important;
 }
 
@@ -204,9 +197,7 @@ a:focus,
 }
 
 .hidden-link a:hover,
-.hidden-link a:focus,
-.hidden-btn a:hover,
-.hidden-btn a:focus {
+.hidden-btn a:hover {
 	color: #28e0c9;
     font-weight: 700;
     text-decoration: none;
@@ -220,13 +211,11 @@ a:focus,
 	margin-top: -.5rem;
 }
 
-.tab-btn:hover,
-.tab-btn:focus {
+.tab-btn:hover {
     background-color: #fbfbfb;
 }
 
-.tab-btn a:hover,
-.tab-btn a:focus {
+.tab-btn a:hover {
 	color: #28e0c9 !important;
 	font-weight: 700;
 }
@@ -282,9 +271,7 @@ a:focus,
 }
 
 .btn-secondary-custom:hover,
-.btn-secondary-custom:focus,
-.btn-primary-custom:hover,
-.btn-primary-custom:focus {
+.btn-primary-custom:hover {
     color: #28e0c9;
     border: 1px solid #28e0c9;
     background-color: #fff;
@@ -340,7 +327,7 @@ a:focus,
     justify-content: center;
     overflow: hidden;
     top: 50%;
-    width: calc(100% - 30px);
+    width: 100%;
     text-align: center;
     transform: translateY(-50%);
 }
@@ -357,8 +344,7 @@ a:focus,
 	font-size: 1rem;
 }
 
-.col-caption:hover,
-.col-caption:focus {
+.col-caption:hover {
 	opacity: 1;
 }
 
@@ -406,8 +392,7 @@ a:focus,
 	max-width: 300px;
 }
 
-.icon:hover,
-.icon:focus {
+.icon:hover {
 	color: #28e0c9;
 }
 
@@ -423,8 +408,7 @@ a:focus,
 	font-size: 25px;
 }
 
-.arrow:hover,
-.arrow:focus {
+.arrow:hover {
 	color: #28e0c9;
 	 -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -453,8 +437,7 @@ a:focus,
 	padding: 10px 10px 5px 10px;
 }
 
-.icon-link:hover,
-.icon-link:focus {
+.icon-link:hover {
 	border: 1px solid #28e0c9;
 	background-color: #fff;
 	color: #28e0c9;
