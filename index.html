@@ -57,7 +57,7 @@
 		  
 			<!-- logo -->
 			<a class="navbar-brand" href="#home">
-				<h5>Elizabeth Ropp<span class="sub-header text-muted hidden-xs-down">, Interactive Designer</span></h5>
+				<h5>Elizabeth Ropp<span class="sub-header text-muted hidden-lg-down">, Interactive Designer</span></h5>
 			</a>
 		  
 			<div class="collapse navbar-toggleable-md" id="navbar">
@@ -327,7 +327,7 @@
 					setTimeout(function() {
 						onloadcssdefined( cb );
 					});
-				};
+				}
 		
 				function loadCB(){
 					if( ss.addEventListener ){
@@ -343,7 +343,7 @@
 				ss.onloadcssdefined = onloadcssdefined;
 				onloadcssdefined( loadCB );
 				return ss;
-			};
+			}
 			// commonjs
 			if( typeof exports !== "undefined" ){
 				exports.loadCSS = loadCSS;
@@ -357,7 +357,7 @@
 		WebFontConfig = {
 		    google: { families: [ 'Open+Sans:400,700:latin', 'Lora:400,700:latin' ] }
 		};
-		  
+		
 		(function() {
 		    var wf = document.createElement('script');
 		    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
@@ -365,6 +365,7 @@
 		    wf.async = 'true';
 		    var s = document.getElementsByTagName('script')[0];
 		    s.parentNode.insertBefore(wf, s);
+		})();
 		
 	</script>
 
