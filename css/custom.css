@@ -241,8 +241,7 @@ a:focus,
 	color: #444;
 }
 
-.example-caption:hover,
-.example-caption:focus {
+.example-caption:hover {
 	color: #28e0c9;
 	-webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -293,7 +292,7 @@ a:focus,
 }
 
 .caption-custom {
-    width: 100%;
+    width: 120%;
     border-bottom: 4px solid #efefef;
 }
 
