@@ -327,7 +327,7 @@ a:hover,
     justify-content: center;
     overflow: hidden;
     top: 50%;
-    width: 100%;
+    width: calc(100% - 30px);
     text-align: center;
     transform: translateY(-50%);
 }
