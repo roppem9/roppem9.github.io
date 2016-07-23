@@ -327,13 +327,16 @@ a:hover,
     justify-content: center;
     overflow: hidden;
     top: 50%;
-    width: calc(100% - 30px);
     text-align: center;
     transform: translateY(-50%);
 }
 
-.col-caption-width {
-	width: 100% !important;
+.col-caption-hp {
+	width: calc(100% - 30px);
+}
+
+.col-caption-page {
+	width: 100%;
 }
 
 .col-caption i {
