@@ -10,9 +10,8 @@
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
 
-	<!-- custom css, preload -->
-	<link rel="preload" href="css/custom.css" as="style" onload="this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="css/custom.css"></noscript>
+	<!-- custom css -->
+	<link rel="stylesheet" href="css/custom.css">
 
     <!-- fontastic -->
     <link href="https://file.myfontastic.com/godme2fsw9VZRrcJbAWwGS/icons.css" rel="stylesheet">
@@ -357,14 +356,16 @@
 		// Google Fonts
 		WebFontConfig = {
 		    google: { families: [ 'Open+Sans:400,700:latin', 'Lora:400,700:latin' ] }
-		  };
-		  (function() {
+		};
+		  
+		(function() {
 		    var wf = document.createElement('script');
 		    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
 		    wf.type = 'text/javascript';
 		    wf.async = 'true';
 		    var s = document.getElementsByTagName('script')[0];
 		    s.parentNode.insertBefore(wf, s);
+		}
 		
 	</script>
 
