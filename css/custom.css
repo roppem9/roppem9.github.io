@@ -332,6 +332,10 @@ a:hover,
     transform: translateY(-50%);
 }
 
+.col-caption-width {
+	width: 100% !important;
+}
+
 .col-caption i {
 	border: 1px solid #fff;
 	color: #fff;
