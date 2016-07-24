@@ -364,11 +364,6 @@ a:active,
 	font-size: 35px;
 }
 
-.icon-arrow-right,
-.icon-arr {
-	font-size: 1rem;
-}
-
 .col-caption:hover,
 .col-caption:active {
 	opacity: 1;
@@ -433,11 +428,49 @@ a:active,
 	color: #efefef;
 	opacity: 1 !important;
 	font-size: 25px;
+	text-decoration: none;
+}
+
+.carousel-container {
+	height: 547px;
+}
+
+.arrow-left,
+.arrow-right {
+	opacity: .3;
+	position: fixed;
+	color: #3c948b;
+	z-index: 10000;
+	margin-top: 18%;
+	width: 80px;
+	text-decoration: none;
+
+    line-height: 80px;
+    font-size: 40px;
+    
+}
+
+.arrow-left:hover,
+.arrow-left:active,
+.arrow-right:hover,
+.arrow-left:active {
+	opacity: .5;
+	text-decoration: none;
+}
+
+.arrow-left {
+	margin-left: 1%;
+}
+
+.arrow-right {
+	margin-left: 96%;
 }
 
 .arrow:hover,
-.arrow:active {
+.arrow:active,
+.arrow:visited {
 	color: #28e0c9;
+	text-decoration: none;
 	 -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
