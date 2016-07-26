@@ -42,6 +42,13 @@ a:active,
     text-decoration: none; 
 }
 
+html.can-touch a:hover,
+html.can-touch a:active,
+html.can-touch .h3-link:hover,
+html.can-touch .h3-link:active {
+    background: none; /* disable hover effect on touch devices */
+}
+
 /* ---- btns ---- */
 
 .btn-primary {
@@ -75,6 +82,15 @@ a:active,
     background-color: #fbfbfb;
     color: #28e0c9;
     font-weight: 700;
+}
+
+html.can-touch .btn-primary:hover,
+html.can-touch .btn-primary:active,
+html.can-touch .btn-secondary:hover,
+html.can-touch .btn-secondary:active,
+html.can-touch .btn-tertiary:hover,
+html.can-touch .btn-tertiary:active {
+    background: none; /* disable hover effect on touch devices */
 }
 
 /* ---- Section Background ---- */
@@ -141,6 +157,11 @@ a:active,
     transition: all .35s;
 }
 
+html.can-touch .navbar-brand h5:hover
+html.can-touch .navbar-brand h5:active {
+    background: none; /* disable hover effect on touch devices */
+}
+
 /* ---- nav items (no btn) ---- */
 
 .tab-style {
@@ -158,6 +179,11 @@ a:active,
 .nav-item a:hover,
 .nav-item a:active {
 	color: #28e0c9 !important;
+}
+
+html.can-touch .nav-item a:hover,
+html.can-touch .nav-item a:active {
+    background: none; /* disable hover effect on touch devices */
 }
 
 .nav-link {
@@ -211,6 +237,13 @@ a:active,
     text-decoration: none;
 }
 
+html.can-touch .hidden-link a:hover,
+html.can-touch .hidden-link a:active,
+html.can-touch .hidden-btn a:hover,
+html.can-touch .hidden-btn a:active {
+    background: none; /* disable hover effect on touch devices */
+}
+
 /* ---- nav btn ---- */
 
 .tab-btn {
@@ -224,10 +257,20 @@ a:active,
     background-color: #fbfbfb;
 }
 
+html.can-touch .tab-btn:hover,
+html.can-touch .tab-btn:active {
+    background: none; /* disable hover effect on touch devices */
+}
+
 .tab-btn a:hover,
 .tab-btn a:active {
 	color: #28e0c9 !important;
 	font-weight: 300;
+}
+
+html.can-touch .tab-btn a:hover,
+html.can-touch .tab-btn a:active {
+    background: none; /* disable hover effect on touch devices */
 }
 
 /* ================================= 
@@ -246,6 +289,11 @@ a:active,
 	-webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+html.can-touch .example-caption:hover,
+html.can-touch .example-caption:active {
+    background: none; /* disable hover effect on touch devices */
 }
 
 .card-img-top {
@@ -282,13 +330,20 @@ a:active,
 }
 
 .btn-secondary-custom:hover,
-.btn-seconary-custom:active,
+.btn-secondary-custom:active,
 .btn-primary-custom:hover,
 .btn-primary-custom:active {
     color: #28e0c9;
     border: 1px solid #28e0c9;
     background-color: #fff;
     font-weight: 300;
+}
+
+html.can-touch .btn-secondary-custom:hover,
+html.can-touch .btn-secondary-custom:active,
+html.can-touch .btn-primary-custom:hover,
+html.can-touch .btn-primary-custom:active {
+    background: none; /* disable hover effect on touch devices */
 }
 
 .caption-custom {
@@ -364,6 +419,11 @@ a:active,
 	opacity: 1;
 }
 
+html.can-touch .col-caption:hover,
+html.can-touch .col-caption:active {
+    background: none; /* disable hover effect on touch devices */
+}
+
 /* ================================= 
   Services Style
 ==================================== */
@@ -414,6 +474,11 @@ a:active,
 	text-decoration: none;
 }
 
+html.can-touch .icon:hover,
+html.can-touch .icon:active {
+    background: none; /* disable hover effect on touch devices */
+}
+
 /* ================================= 
   Carousel
 ==================================== */
@@ -454,6 +519,13 @@ a:active,
 	text-decoration: none;
 }
 
+html.can-touch .arrow-left:hover,
+html.can-touch .arrow-left:active,
+html.can-touch .arrow-right:hover,
+html.can-touch .arrow-right:active {
+    background: none; /* disable hover effect on touch devices */
+}
+
 .arrow-left {
 	margin-left: 1%;
 }
@@ -470,6 +542,12 @@ a:active,
 	 -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+html.can-touch .arrow:hover,
+html.can-touch .arrow:active,
+html.can-touch .arrow:visited {
+    background: none; /* disable hover effect on touch devices */
 }
 
 #carousel-custom {
@@ -499,6 +577,11 @@ a:active,
 	border: 1px solid #28e0c9;
 	background-color: #fff;
 	color: #28e0c9;
+}
+
+html.can-touch .icon-link:hover,
+html.can-touch .icon-link:active {
+    background: none; /* disable hover effect on touch devices */
 }
 
 /* ---- copyright & bootstrap callout ---- */
