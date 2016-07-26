@@ -412,6 +412,7 @@ html.can-touch .btn-primary-custom:active {
 	color: #fff;
 	padding: 15px 15px 5px 15px;
 	font-size: 35px;
+	opacity: 0;
 }
 
 .col-caption:hover,
