@@ -408,10 +408,7 @@ html.can-touch .btn-primary-custom:active {
 }
 
 .col-caption i {
-	border: 1px solid #fff;
-	color: #fff;
-	padding: 15px 15px 5px 15px;
-	font-size: 35px;
+	opacity: 0;
 }
 
 .col-caption:hover,
@@ -420,9 +417,7 @@ html.can-touch .btn-primary-custom:active {
 }
 
 html.can-touch .col-caption:hover,
-html.can-touch .col-caption:active
-html.can-touch .col-caption i:hover,
-html.can-touch .col-caption i:active {
+html.can-touch .col-caption:active {
     background: none; /* disable hover effect on touch devices */
 }
 
@@ -704,6 +699,15 @@ html.can-touch .icon-link:active {
 		-moz-column-count: 3;
 		-webkit-column-count: 3;
 		column-count: 3;
+	}
+
+	/* ---- .col-caption styling ---- */
+
+	.col-caption i {
+		border: 1px solid #fff;
+		color: #fff;
+		padding: 15px 15px 5px 15px;
+		font-size: 35px;
 	}
 
 }
