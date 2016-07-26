@@ -435,10 +435,6 @@ html.can-touch .btn-primary-custom:focus {
 	width: 100%;
 }
 
-.col-caption i {
-	opacity: 0;
-}
-
 .col-caption:hover,
 .col-caption:active {
 	opacity: 1;
