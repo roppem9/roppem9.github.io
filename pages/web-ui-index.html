@@ -350,6 +350,16 @@
 		    var s = document.getElementsByTagName('script')[0];
 		    s.parentNode.insertBefore(wf, s);
 		})();
+
+		// Remove Sticky Hover
+		var touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
+		if (!touchsupport){ // browser doesn't support touch
+		    document.documentElement.className += " non-touch"
+		}
+
+		html.nontouch nav a:hover{ /* hover effect only visible to devices that report back as not supporting touch */
+		    background: yellow;
+		}
 		
 	</script>
 
