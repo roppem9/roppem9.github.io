@@ -23,7 +23,7 @@
 
 	<!-- .navbar -->
 
-	<div class="collapse" data-spy="affix" id="navbar">
+	<div class="collapse" id="navbar">
 	    
 	    <!-- tabs -->
 	    <ul class="nav nav-stacked navbar-fixted-top text-xs-center hidden-nav p-t-1">
@@ -293,6 +293,12 @@
 		    var s = document.getElementsByTagName('script')[0];
 		    s.parentNode.insertBefore(wf, s);
 		})();
+
+		// Remove Sticky Hover Effect on Mobile Devices
+		document.addEventListener('touchstart', function addtouchclass(e){ // first time user touches the screen
+		    document.documentElement.classList.add('can-touch') // add "can-touch" class to document root using classList API
+		    document.removeEventListener('touchstart', addtouchclass, false) // de-register touchstart event
+		}, false)
 		
 	</script>
 
