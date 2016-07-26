@@ -412,13 +412,10 @@ html.can-touch .btn-primary-custom:active {
 	color: #fff;
 	padding: 15px 15px 5px 15px;
 	font-size: 35px;
-	opacity: 0;
 }
 
 .col-caption:hover,
-.col-caption:active,
-.col-caption i:hover,
-.col-caption i:active {
+.col-caption:active {
 	opacity: 1;
 }
 
@@ -426,8 +423,7 @@ html.can-touch .col-caption:hover,
 html.can-touch .col-caption:active
 html.can-touch .col-caption i:hover,
 html.can-touch .col-caption i:active {
-    background: none;
-    opacity: 0; /* disable hover effect on touch devices */
+    background: none; /* disable hover effect on touch devices */
 }
 
 /* ================================= 
