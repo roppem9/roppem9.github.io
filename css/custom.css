@@ -27,6 +27,7 @@ h5 {
 a,
 .h3-link {
 	color: #3c948b;
+	text-decoration: none;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -169,12 +170,6 @@ a:active,
 	padding-top: .25rem;
 	padding-bottom: .25rem;
 	font-size: 1.5rem;
-}
-
-.nav-stacked-collapse {
-	display: block;
-	position: fixed;
-	background-color: #444;
 }
 
 .hidden-nav {
@@ -416,6 +411,7 @@ a:active,
 .icon:hover,
 .icon:active {
 	color: #28e0c9;
+	text-decoration: none;
 }
 
 /* ================================= 
