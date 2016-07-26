@@ -421,7 +421,8 @@ html.can-touch .btn-primary-custom:active {
 
 html.can-touch .col-caption:hover,
 html.can-touch .col-caption:active {
-    background: none; /* disable hover effect on touch devices */
+    background: none;
+    opacity: 0; /* disable hover effect on touch devices */
 }
 
 /* ================================= 
