@@ -19,7 +19,7 @@
 	<title>Elizabeth Ropp Design</title>
 </head>
 
-<body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+<body id="home" data-spy="scroll" data-target="#navbar" data-offset="100">
 
 	<!-- .navbar -->
 
@@ -82,7 +82,7 @@
 
 	<!-- web/ui examples -->
 	
-	<div class="bg-primary">
+	<div>
 		<div class="container m-y-3 p-t-2">	
 
 			<!-- page header -->
@@ -324,6 +324,22 @@
 		    document.documentElement.classList.add('can-touch') // add "can-touch" class to document root using classList API
 		    document.removeEventListener('touchstart', addtouchclass, false) // de-register touchstart event
 		}, false)
+
+		// Sticky Navbar
+		var affixElement = '#navbar';
+
+		$(affixElement).affix({
+		  offset: {
+		    // Distance of between element and top page
+		    top: function () {
+		      return (this.top = $(affixElement).offset().top)
+		    },
+		    // when start #footer 
+		    bottom: function () { 
+		      return (this.bottom = $('#footer').outerHeight(true))
+		    }
+		  }
+		});
 		
 	</script>
 
